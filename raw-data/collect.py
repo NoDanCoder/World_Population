@@ -2,10 +2,12 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import warnings
+import model.rw_model as rw
 
 warnings.filterwarnings('ignore')
 
 record = []
+file_path = '../dataset2.json'
 
 url = 'https://www.worldometers.info/'
 table = 'counterdiv'
@@ -28,3 +30,5 @@ for tag in targets.values():
     value = parse.find('span', attrs={'rel': tag}).text
     format_value = value.replace(',', '')
     record.append(int(format_value))
+
+rw.append_json(file_path, record)
