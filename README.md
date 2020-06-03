@@ -16,19 +16,38 @@ After this, data will be cleaned and formatted to be interpreted by a linear reg
 
 It was made using python 3.8, you can download it [here](https://www.python.org/downloads/release/python-380/).
 
+- Clone the repo:
+
 ```bash
-pip install foobar
+git clone https://github.com/Wetgou/World_Population.git
+```
+
+- Install the dependences:
+
+```bash
+pip install -r requirements.txt
+```
+
+- Get into program folder:
+
+```bash
+cd World_Population/raw-data/
+```
+
+- And run:
+
+```bash
+./collect.py
 ```
 
 ## Usage
 
-```python
-import foobar
+Every time you run the script, it creates a file called ```dataset.json```, where stores the info, in JSON format.
 
-foobar.pluralize('word') # returns 'words'
-foobar.pluralize('goose') # returns 'geese'
-foobar.singularize('phenomena') # returns 'phenomenon'
-```
+## Roadmap
+
+- Achieve to make a linear model to interpret the data, and plot it into a chart.
+- Complete README files for sub-folders.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
