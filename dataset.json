@@ -1,0 +1,110 @@
+[
+    {
+        "id": 0,
+        "date": "06/03/2020, 12:04:10",
+        "record": [
+            7788888971,
+            59297818,
+            193012,
+            24894644,
+            81031
+        ],
+        "values": {
+            "world_population": 7788888971,
+            "year_births": 59297818,
+            "today_births": 193012,
+            "year_deaths": 24894644,
+            "today_deaths": 81031
+        }
+    },
+    {
+        "id": 1,
+        "date": "06/03/2020, 13:04:10",
+        "record": [
+            7788898246,
+            59313808,
+            209002,
+            24901357,
+            87744
+        ],
+        "values": {
+            "world_population": 7788898246,
+            "year_births": 59313808,
+            "today_births": 209002,
+            "year_deaths": 24901357,
+            "today_deaths": 87744
+        }
+    },
+    {
+        "id": 2,
+        "date": "06/03/2020, 14:02:35",
+        "record": [
+            7788907281,
+            59329379,
+            224573,
+            24907894,
+            94281
+        ],
+        "values": {
+            "world_population": 7788907281,
+            "year_births": 59329379,
+            "today_births": 224573,
+            "year_deaths": 24907894,
+            "today_deaths": 94281
+        }
+    },
+    {
+        "id": 3,
+        "date": "06/03/2020, 15:04:02",
+        "record": [
+            7788916772,
+            59345755,
+            240949,
+            24914769,
+            101156
+        ],
+        "values": {
+            "world_population": 7788916772,
+            "year_births": 59345755,
+            "today_births": 240949,
+            "year_deaths": 24914769,
+            "today_deaths": 101156
+        }
+    },
+    {
+        "id": 4,
+        "date": "06/03/2020, 16:07:25",
+        "record": [
+            7788926574,
+            59362649,
+            257843,
+            24921862,
+            108249
+        ],
+        "values": {
+            "world_population": 7788926574,
+            "year_births": 59362649,
+            "today_births": 257843,
+            "year_deaths": 24921862,
+            "today_deaths": 108249
+        }
+    },
+    {
+        "id": 5,
+        "date": "06/03/2020, 17:08:08",
+        "record": [
+            7788935963,
+            59378830,
+            274024,
+            24928655,
+            115042
+        ],
+        "values": {
+            "world_population": 7788935963,
+            "year_births": 59378830,
+            "today_births": 274024,
+            "year_deaths": 24928655,
+            "today_deaths": 115042
+        }
+    }
+]
