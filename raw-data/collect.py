@@ -7,7 +7,7 @@ import model.rw_model as rw
 warnings.filterwarnings('ignore')
 
 record = []
-file_path = '../dataset2.json'
+file_path = '../dataset.json'
 
 url = 'https://www.worldometers.info/'
 table = 'counterdiv'
