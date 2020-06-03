@@ -46,4 +46,4 @@ def append_json(file_path, record):
     content.append(frame)
 
     with open(file_path, 'w', encoding='utf-8') as f:
-        json.dump(content, f)
+        json.dump(content, f, indent=4)
