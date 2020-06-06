@@ -2,12 +2,12 @@
 from selenium import webdriver
 from bs4 import BeautifulSoup
 import warnings
-import model.rw_model as rw
+import read_write.rw_model as rw
 
 warnings.filterwarnings('ignore')
 
 record = []
-file_path = '../dataset.json'
+file_path = 'dataset.json'
 
 url = 'https://www.worldometers.info/'
 table = 'counterdiv'
